@@ -36,4 +36,4 @@ Please note: If you are attempting to upload assets from a new `_DEV` subfolder 
 ## Branches
 - master (opinionated markup for good starting point on Solver Collective themes)
 - barebones (almost zero markup - mainly used for scaffold and Developer notes - a clean start)
-- branded-basic (staging branch for master)
+- brand (staging branch for master)
