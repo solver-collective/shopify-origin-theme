@@ -15,7 +15,8 @@ Prepared by [Solver Collective](https://www.solvercollective.com)
 ## Requirements
 - Node.js v8.x++
 - NPM or Yarn
-- Shopify Theme Kit [Installation Guide](https://shopify.github.io/themekit/#installation)
+- Gulp
+- Shopify Theme Kit - [Installation Guide](https://shopify.github.io/themekit/#installation)
 
 
 
