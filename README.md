@@ -38,6 +38,10 @@ Please note: If you are attempting to upload assets from a new `_DEV` subfolder 
 
 ## Extra Resources
 - [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
+- [Shopify Templates Documentation](https://help.shopify.com/en/themes/development/templates)
+- [Shopify Forms for Multiple Uses](https://help.shopify.com/en/themes/customization/forms)
+- [Shopify Forms - All Predefined Types](https://help.shopify.com/en/themes/liquid/tags/theme-tags#form)
+- [Blog Post about Using Forms with Shopify](https://www.shopify.com/partners/blog/build-forms-on-shopify)
 - [Liquid Code Practicle Examples](https://shopify.github.io/liquid-code-examples/)
 - [Liquid file requirements for themes](https://help.shopify.com/en/themes/development/theme-store-requirements/theme-file-requirements)
 - [Shopify Building Themes Documentation](https://help.shopify.com/en/themes/development)
