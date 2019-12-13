@@ -19,8 +19,6 @@ Prepared by [Solver Collective](https://www.solvercollective.com)
 - Gulp
 - Shopify Theme Kit - [Installation Guide](https://shopify.github.io/themekit/#installation)
 
-
-
 ## Instructions
 1. Clone this repo to your computer using your favorite shell application
 2. In Terminal cd into the `/_dev` directory and install the Gulp packages (if you haven’t already installed Gulp, you’ll need to do so first):
@@ -37,3 +35,15 @@ Please note: If you are attempting to upload assets from a new `_DEV` subfolder 
 - master (opinionated markup for good starting point on Solver Collective themes)
 - barebones (almost zero markup - mainly used for scaffold and Developer notes - a clean start)
 - brand (staging branch for master)
+
+## Extra Resources
+- [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
+- [Liquid Code Practicle Examples](https://shopify.github.io/liquid-code-examples/)
+- [Liquid file requirements for themes](https://help.shopify.com/en/themes/development/theme-store-requirements/theme-file-requirements)
+- [Shopify Building Themes Documentation](https://help.shopify.com/en/themes/development)
+- [Shopify Theme Practicle Tutorials](https://help.shopify.com/en/themes/customization)
+- [Shopify Liquid Objects](https://help.shopify.com/en/themes/liquid/objects)
+- [Shopify Ajax API](https://help.shopify.com/en/themes/development/getting-started/using-ajax-api)
+- [More Shopify Tutorials](https://www.shopify.com/partners/blog/topics/shopify-tutorials)
+- [Favorite Metafields Editor](https://apps.shopify.com/accentuate)
+- [Shopify Super Helpful Utility Scripts](https://github.com/Shopify/theme-scripts)
