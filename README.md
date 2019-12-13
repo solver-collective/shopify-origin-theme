@@ -8,7 +8,7 @@ Prepared by [Solver Collective](https://www.solvercollective.com)
 - Improved solution to the problem with Shopify not allowing sub-directories within the /assets directory
 - Development tools: 
 - Gulp for local asset processing and task running
-- Browserstack for local development automatice page reloading
+- Browserstack for local development automatic page reloading
 - Shopify ThemeKit for theme deployment and updates 
 - JavaScript in ES6 (using Babel)
 - Bootstrap 4 (so we can all agree about grid and utility classes)
