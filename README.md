@@ -11,6 +11,7 @@ Prepared by [Solver Collective](https://www.solvercollective.com)
 - Browserstack for local development automatice page reloading
 - Shopify ThemeKit for theme deployment and updates 
 - JavaScript in ES6 (using Babel)
+- Bootstrap 4 (so we can all agree about grid and utility classes)
 
 ## Requirements
 - Node.js v8.x++
@@ -32,8 +33,7 @@ Prepared by [Solver Collective](https://www.solvercollective.com)
 
 Please note: If you are attempting to upload assets from a new `_DEV` subfolder -> you may need to stop Gulp and run `gulp local` to process all the new assets into the root level `/assets` folder.
 
-
 ## Branches
-- master
-- barebones (used for edits to master)
-- branded-basic (opinionated markup for good starting point on Solver Collective themes)
+- master (opinionated markup for good starting point on Solver Collective themes)
+- barebones (almost zero markup - mainly used for scaffold and Developer notes - a clean start)
+- branded-basic (staging branch for master)
