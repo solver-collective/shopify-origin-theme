@@ -1,0 +1,40 @@
+{% comment %}
+
+  DESCRIPTION:
+  The gift_card.liquid file renders the gift card issued to a customer upon purchase. The URL to the gift_card.liquid template is found in email notifications sent to the customer when a gift card is purchased.
+
+  Within the gift_card.liquid template, you can use the gift_card object's attributes to display a gift card's details.
+
+  A default gift_card.liquid template is created automatically when the Gift Card feature is activated in a store.
+
+  DOCUMENTATION:
+  https://help.shopify.com/en/themes/development/templates/search-liquid
+
+  ---
+
+  The Search Object:
+  https://help.shopify.com/en/themes/liquid/objects/search
+  COMMON APPLICABLE ATTRIBUTES:
+  * search.performed
+  * search.results
+  * search.results_count
+  * search.terms
+  * search.types
+
+  ---
+
+  NOTES:
+
+  The search.liquid template is not a required template.
+  That search.liquid template is included in the current theme to make it easier for you 
+  to customize your /search page.
+  Whether you are using your own template for the search page or not,
+  the {{ content_for_header }} tag in theme.liquid will always output the following on the /search page:
+  <link rel="stylesheet" href="//cdn.shopify.com/s/global/search.css" type="text/css" />
+  So the /search page is always styled by a globally-hosted stylesheet called search.css.
+  You may override and complement that CSS in your theme's stylesheet.
+  We are using a div#searchresults below so that the styles defined in search.css get
+  applied to the elements on this page; the 'searchresults' id is used in the CSS
+  selectors inside search.css.
+
+{% endcomment %}

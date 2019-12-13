@@ -1,0 +1,44 @@
+{% comment %}
+
+  DESCRIPTION:
+  The list-collections.liquid template is used to render a page where all of the collections in the shop are listed. This
+  template can be accessed by going to /collections of the shop.
+
+  DOCUMENTATION:
+  https://help.shopify.com/en/themes/development/templates/list-collections-liquid
+
+  ---
+
+  Loop through the 'collections' array:
+
+  {% for collection in collections %}
+  <!-- Collection information here -->
+  {% endfor %}
+
+  The Collection Object:
+  https://help.shopify.com/en/themes/liquid/objects/collection
+  COMMON APPLICABLE ATTRIBUTES:
+  * collection.all_products_count
+  * collection.all_tags
+  * collection.all_types
+  * collection.all_vendors
+  * collection.current_type
+  * collection.current_vendor
+  * collection.default_sort_by
+  * collection.description
+  * collection.handle
+  * collection.id
+  * collection.image
+  * collection.next_product
+  * collection.previous_product
+  * collection.products
+  * collection.products_count
+  * collection.published_at
+  * collection.sort_by
+  * collection.sort_options
+  * collection.template_suffix
+  * collection.title
+  * collection.tags
+  * collection.url
+  
+{% endcomment %}

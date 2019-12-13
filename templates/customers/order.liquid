@@ -1,0 +1,71 @@
+{% comment %}
+
+  DESCRIPTION:
+  The customers/order.liquid template displays the details of a visitor's past order.
+
+  DOCUMENTATION:
+  https://help.shopify.com/en/themes/development/templates/customers-order
+
+  ---
+
+  The Order Object:
+  https://help.shopify.com/en/themes/liquid/objects/order
+  COMMON APPLICABLE ATTRIBUTES:
+    * order.attributes
+    * order.billing_address
+    * order.cancelled
+    * order.cancelled_at
+    * order.cancel_reason
+    * order.cancel_reason_label
+    * order.cart_level_discount_applications
+    * order.created_at
+    * order.customer
+    * order.customer_url
+    * order.discount_applications
+    * order.email
+    * order.financial_status
+    * order.financial_status_label
+    * order.fulfillment_status
+    * order.fulfillment_status_label
+    * order.line_items
+    * order.line_items_subtotal_price
+    * order.location
+    * order.name
+    * order.note
+    * order.order_number
+    * order.order_status_url
+    * order.phone
+    * order.shipping_address
+    * order.shipping_methods
+    * order.shipping_price
+    * order.subtotal_price
+    * order.tags
+    * order.tax_lines
+    * order.tax_price
+    * order.total_discounts
+    * order.total_net_amount
+    * order.total_price
+    * order.total_refunded_amount
+    * order.transactions
+
+    ---
+
+    NOTES:
+
+    You will want to loop through the 'order.line_items' array:
+    ex:
+    <table>
+    {% for line_item in order.line_items %}
+    <tr>
+      <td>{{ line_item.title | link_to: line_item.product.url }}</td>
+      <td>{{ line_item.sku }}</td>
+      <td>{{ line_item.original_price | money }}</td>
+      <td>{{ line_item.quantity }}</td>
+      <td>{{ line_item.line_price | money }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  You may also want to loop through the 'order.attributes' array to get any custom order notes that you have created.
+
+{% endcomment %}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Shopify Origin Theme Starter Kit",
+    "theme_author": "Solver Collective",
+    "theme_version": "1.0.0",
+    "theme_documentation_url": "https://help.shopify.com/en/themes/development/theme-editor/add-theme-info",
+    "theme_support_email": "shopify-origin@solvercollective.com"
+  },
+  {
+    "name": "Logo Settings",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Set the logo for favicon used in web browser tabs."
+      },
+      {
+        "type": "header",
+        "content": "Upload Icon"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_favicon",
+        "label": "Use custom icon (preferrably 32px x 32px)",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      }
+    ]
+  }
+]

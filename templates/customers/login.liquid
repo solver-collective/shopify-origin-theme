@@ -1,0 +1,26 @@
+{% comment %}
+
+  DESCRIPTION:
+  The customers/login.liquid template is used by visitors to log in to their customer account page.
+
+  DOCUMENTATION:
+  https://help.shopify.com/en/themes/development/templates/customers-login
+
+  ---
+
+  NOTES:
+
+  Common forms for this page include:
+  {% form 'customer_login' %}
+  {% form 'recover_customer_password' %}
+  {% form 'create_customer' %}
+
+  If customer accounts are optional, you can use a form with the parameter guest_login to allow the customer to check out as a guest instead of logging in to an account.
+
+  {% if shop.checkout.guest_login %}
+    {% form 'guest_login' %}
+      <input type="submit" value="Continue as Guest" />
+    {% endform %}
+  {% endif %}
+
+{% endcomment %}

@@ -1,0 +1,88 @@
+{% comment %}
+
+  DESCRIPTION:
+  The product.liquid file renders a detailed page for an individual product. It includes an HTML <form> that visitors use to select a variant and add it to the cart.
+
+  DOCUMENTATION:
+  https://help.shopify.com/en/themes/development/templates/product-liquid
+
+  ---
+
+  The Product Object:
+  https://help.shopify.com/en/themes/liquid/objects/product
+  COMMON APPLICABLE ATTRIBUTES:
+  * product.available
+  * product.collections
+  * product.compare_at_price_max
+  * product.compare_at_price_min
+  * product.compare_at_price_varies
+  * product.content
+  * product.created_at
+  * product.description
+  * product.featured_image
+  * product.featured_media
+  * product.first_available_variant
+  * product.handle
+  * product.has_only_default_variant
+  * product.id
+  * product.images
+  * product.options
+  * product.options_by_name
+  * product.options_with_values
+  * product.price
+  * product.price_max
+  * product.price_min
+  * product.price_varies
+  * product.published_at
+  * product.selected_variant
+  * product.selected_or_first_available_variant
+  * product.tags
+  * product.template_suffix
+  * product.title
+  * product.type
+  * product.url
+  * product.variants
+  * product.vendor
+
+  ---
+
+  NOTES:
+
+  There are many things to consider when developing your product pages. We recommend reviewing the documentation and
+  following some premade tutorials to get an idea of what is possible:
+
+  Product Variant Tutorials:
+  https://help.shopify.com/en/themes/customization/products/variants
+  * Find a variant ID
+  * Hide variants that are sold out
+  * Add 'Pick an option' labels to variant drop-down menus
+  * Link product options
+  * Select variants by clicking their images
+  * Show featured image until a variant is selected
+
+  Add To Cart Tutorials:
+  https://help.shopify.com/en/themes/customization/products/add-to-cart
+  * Allow pre-orders
+  * Hide product prices or disable your cart
+  * Replace the Add to cart button
+  * Stay on the product page when products are added to the cart
+  * Add captions or labels to product images
+  * Add color swatches using line item properties
+  * Add color swatches to products
+
+  Product Page Features Tutorials:
+  https://help.shopify.com/en/themes/customization/products/features
+  * Add a quantity selector
+  * Add a size chart
+  * Add tabs to product descriptions
+  * Get customization information for products
+  * Recommend related products
+  * Show SKU numbers
+
+  Using Product Microdata for search engines and datafeeds:
+  https://developers.google.com/search/docs/data-types/product?rd=1&visit_id=637117695181491788-3033348791&hl=en
+
+  You can test your Product Rich Text Snippets here:
+  https://search.google.com/structured-data/testing-tool
+
+{% endcomment %}

@@ -1,0 +1,64 @@
+// Overwrite Bootstrap's variables here
+// You can find them in node_modules/bootstrap/scss/_variables.scss
+// Copy the variables you need into this file, don't modify files under node_modules/
+
+// Changing the body background and text
+$body-bg: white;
+$font-size-base: 0.813rem;
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1460px) !default;
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (sm: 480px,
+  md: 660px,
+  lg: 900px,
+  xl: 1100px,
+  xxl: 1360px) !default;
+
+// Changing the theme colors
+$primary: #1a1818;
+$secondary: #FFFFFF;
+$light: #f6f6f6;
+$dark: #151515;
+$alert: #ff4300;
+
+$brand-primary: $primary;
+
+// Branded Colors
+$gray-0: #FFFFFF;
+$gray-10: #E0E1E2;
+$gray-40: #97999C;
+$gray-80: #464749;
+$gray-100: #000000;
+$near-black-1: #232020;
+$near-black-2: #1a1818;
+$near-black-3: #080808;
+$gray-10a: #EEEEEF;
+
+// Links
+$link-hover-color: $union;
+$link-hover-decoration: none !default;
+
+
+// Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
+//$theme-colors: (
+//  "cool": #4d3fa3
+//);
+
+$card-border-radius: 0;
+$font-family-base: 'Some-Font-Name';
