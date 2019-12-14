@@ -118,5 +118,5 @@ gulp.task('watch', ['browser-sync'], function () {
     gulp.watch('javascript/**/*.js', ['js-custom']);
     gulp.watch('image/*/*.{jpg,jpeg,png,gif,svg}', ['images']);
     gulp.watch('font/*.{eot,svg,ttf,woff,woff2}', ['fonts']);
-    gulp.watch('mynotify.tmp', ['bs-reload']);
+    gulp.watch('shopify-ping.tmp', ['bs-reload']);
 });

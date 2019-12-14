@@ -65,7 +65,13 @@
   {% include 'open-graph-tags' %}
   {% include 'twitter-card' %}
 
-  {{ content_for_header }}
+  {%- comment -%}
+    Temp fix for Browsersync
+  {%- endcomment -%}
+  {% if false %}
+    {{ content_for_header }}
+  {% endif %}
+  {{ content_for_header | replace: "<body onload='document._boomrl();'>", "<bodx onload='document._boomrl();'>" }}
 
   {% comment%}Picture Element Tag Polyfill{% endcomment %}
   <script>
@@ -113,16 +119,6 @@
   {{ 'ls.unveilhooks.min.js' | asset_url | script_tag }}
   {{ 'ls.bgset.min.js' | asset_url | script_tag }}
   {{ 'lazysizes.min.js' | asset_url | script_tag }}
-
-  {{ 'TweenMax.min.js' | asset_url | script_tag }}
-  {{ 'CustomEase.min.js' | asset_url | script_tag }}
-  {{ 'ScrollToPlugin.min.js' | asset_url | script_tag }}
-
-  {{ 'ScrollMagic.min.js' | asset_url | script_tag }}
-  {{ 'animation.gsap.min.js' | asset_url | script_tag }}
-  {% comment %}
-  <script src="{{ 'debug.addIndicators.min.js' | asset_url }}"></script>
-  {% endcomment %}
 
   {{ 'brand-custom-theme.js'  | asset_url | script_tag }}
 </body>
