@@ -26,7 +26,7 @@ Prepared by [Solver Collective](https://www.solvercollective.com)
 4. Once you have installed the packages, in Terminal, update `/_dev/Gulpfile.js`
 5. Update proxy: { target: 'hhttps://your-brand-store.myshopify.com' }
 7. Clone and Update (follow instruction of Theme Kit Installation Guide in the link above) the Theme Kit Config File `/_dev/config_sample.yml` -> rename to: `config.yml`
-8. When you are ready for active development using Theme Kit run: `theme watch --notify=_dev/shopify-ping.tmp`
+8. When you are ready for active development using Theme Kit run: `theme watch --env=DEV --notify=_dev/shopify-ping.tmp` - make sure to adjust the `--env=` with the theme you are trying to target
 9. Run `gulp watch` -> Browsersync will open a Browser Window with local URL that provides auto refreshing
 
 Please note: If you are attempting to upload assets from a new `_DEV` subfolder -> you may need to stop Gulp and run `gulp local` to process all the new assets into the root level `/assets` folder.
