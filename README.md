@@ -52,3 +52,14 @@ Please note: If you are attempting to upload assets from a new `_DEV` subfolder 
 - [More Shopify Tutorials](https://www.shopify.com/partners/blog/topics/shopify-tutorials)
 - [Favorite Metafields Editor](https://apps.shopify.com/accentuate)
 - [Shopify Super Helpful Utility Scripts](https://github.com/Shopify/theme-scripts)
+
+## Tips
+- Access Global Shopify Objects passing in the "handle" for the object
+{{ blogs[theHandle].title }}  
+{{ articles[theHandle].title }}  
+{{ pages[theHandle].title }}  
+{{ collections[theHandle].title }}  
+{{ all_products[theHandle].title }}  
+{{ linklists[theHandle].links }}
+- Access referenced Metafileds and other obect properties
+{{ all_products[theHandle].metafields.mycustomfieldgroup.washing-instructions }}
