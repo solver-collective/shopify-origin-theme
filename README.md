@@ -55,6 +55,7 @@ Please note: If you are attempting to upload assets from a new `_DEV` subfolder 
 
 ## Tips
 - Access Global Shopify Objects passing in the "handle" for the object
+
 {{ blogs[theHandle].title }}  
 {{ articles[theHandle].title }}  
 {{ pages[theHandle].title }}  
@@ -62,4 +63,5 @@ Please note: If you are attempting to upload assets from a new `_DEV` subfolder 
 {{ all_products[theHandle].title }}  
 {{ linklists[theHandle].links }}
 - Access referenced Metafileds and other obect properties
+
 {{ all_products[theHandle].metafields.mycustomfieldgroup.washing-instructions }}
