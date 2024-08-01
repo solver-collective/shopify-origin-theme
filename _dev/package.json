@@ -9,7 +9,7 @@
   "author": "Solver Collective",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "4.1.2",
+    "bootstrap": "5.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   },
